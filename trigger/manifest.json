@@ -28,5 +28,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/trigger/file_system_trigger-1.1.zip",
     "last_updated": "2025-07-13T13:37:12.400086+00:00"
+  },
+  {
+    "id": "process_trigger",
+    "name": "Pemicu Proses Aplikasi",
+    "description": "Memicu alur kerja saat sebuah proses/aplikasi dimulai atau berhenti.",
+    "tutorial": null,
+    "author": "Awenk Audico",
+    "version": "1.0",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/trigger/process_trigger-1.0.zip",
+    "last_updated": "2025-07-13T13:37:16.323909+00:00"
   }
 ]
