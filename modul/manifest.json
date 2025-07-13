@@ -68,5 +68,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/dynamic_generator_module-1.1.zip",
     "last_updated": "2025-07-13T13:34:23.427399+00:00"
+  },
+  {
+    "id": "dynamic_ui_test",
+    "name": "Tes UI Dinamis",
+    "description": "Plugin contoh yang menyediakan Tab dan Item Menu kustom secara dinamis ke dalam aplikasi Flowork.",
+    "tutorial": "CARA PENGGUNAAN:\n1. Setelah plugin ini aktif, periksa menu 'Bantuan' di bagian atas.\n2. Akan ada item menu baru bernama 'Buka Tab Tes Dinamis'.\n3. Klik item menu tersebut untuk membuka sebuah tab baru yang dibuat oleh plugin ini.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/dynamic_ui_test-1.1.zip",
+    "last_updated": "2025-07-13T13:34:27.828236+00:00"
   }
 ]
