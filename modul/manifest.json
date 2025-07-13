@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ab_router_module",
+    "name": "A/B Rotator",
+    "description": "Mengarahkan alur kerja ke beberapa preset berbeda secara bergiliran (Round-Robin). Berguna untuk mendistribusikan beban kerja atau melakukan pengujian varian secara merata.",
+    "tutorial": "Tutorial untuk A/B Router belum tersedia.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/ab_router_module-1.1.zip"
+  }
+]
