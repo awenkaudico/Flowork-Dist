@@ -38,5 +38,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/debug_popup_module-1.1.zip",
     "last_updated": "2025-07-13T13:34:01.194231+00:00"
+  },
+  {
+    "id": "delete_item_module",
+    "name": "Hapus File / Folder",
+    "description": "Menghapus file atau folder (beserta isinya) secara permanen. Gunakan dengan hati-hati.",
+    "tutorial": "CARA PAKAI:\n1. Buka Properti node.\n2. Pilih 'Mode Penghapusan': 'Hapus File' atau 'Hapus Folder'.\n3. Tentukan path target yang akan dihapus.\n4. Centang 'Abaikan jika tidak ditemukan' agar alur kerja tidak error jika item sudah tidak ada.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/delete_item_module-1.1.zip",
+    "last_updated": "2025-07-13T13:34:05.028193+00:00"
   }
 ]
