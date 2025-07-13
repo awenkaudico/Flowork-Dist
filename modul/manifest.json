@@ -188,5 +188,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/sub_workflow_module-1.1.zip",
     "last_updated": "2025-07-13T13:35:15.738069+00:00"
+  },
+  {
+    "id": "switch_module",
+    "name": "Logika SWITCH (Pilihan Ganda)",
+    "description": "Mengevaluasi variabel input terhadap serangkaian aturan (kasus) secara berurutan dan mengarahkan alur ke port yang aturannya pertama kali terpenuhi.",
+    "tutorial": "CARA PAKAI:\n1. Hubungkan output dari node lain ke input node ini.\n2. Buka Properti, pilih 'Variabel yang Dicek'.\n3. Tambahkan satu atau lebih 'Kasus'. Setiap 'Nilai Pembanding' yang Anda isi akan otomatis menjadi nama port output baru.\n4. Sambungkan port-port output tersebut ke alur kerja selanjutnya.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/switch_module-1.1.zip",
+    "last_updated": "2025-07-13T13:35:19.461675+00:00"
   }
 ]
