@@ -88,5 +88,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/fail_always_plugin-1.1.zip",
     "last_updated": "2025-07-13T13:34:32.590979+00:00"
+  },
+  {
+    "id": "http_request_module",
+    "name": "Kirim HTTP Request (Dinamis)",
+    "description": "Mengirim request HTTP (GET, POST, dll.) ke URL yang bisa ditentukan secara manual atau diambil secara dinamis dari payload.",
+    "tutorial": "CARA PAKAI:\n1. Buka Properti, di tab 'Utama' pilih 'Mode URL'.\n   - 'Otomatis': Pilih variabel dari node sebelumnya yang berisi URL.\n   - 'Manual': Ketik URL tujuan secara langsung (default: API tes publik).\n2. Atur 'Headers', 'Body', dan 'Otentikasi' di tab masing-masing jika diperlukan.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/http_request_module-1.1.zip",
+    "last_updated": "2025-07-13T13:34:36.699976+00:00"
   }
 ]
