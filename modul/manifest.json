@@ -208,5 +208,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/tampilkan_variabel_demo-1.1.zip",
     "last_updated": "2025-07-13T13:35:23.651228+00:00"
+  },
+  {
+    "id": "simpan_artikel_module",
+    "name": "Simpan Artikel ke TXT",
+    "description": "Menyimpan konten teks dari payload ke dalam sebuah file .txt.",
+    "tutorial": "CARA PAKAI:\n1. Hubungkan node ini setelah node yang menghasilkan teks (misal: Generator Artikel Gemini).\n2. Buka Properti, di bagian 'Input', pastikan 'Kunci Payload' sudah benar (default: generated_article).\n3. Di bagian 'Output', klik 'Browse...' untuk memilih folder tujuan.\n4. Tentukan nama file secara manual atau pilih mode dinamis untuk mengambil nama dari payload.",
+    "author": "Awenk Audico & Gemini Partner",
+    "version": "1.0.0",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/simpan_artikel_module-1.0.0.zip",
+    "last_updated": "2025-07-13T16:18:14.508284+00:00"
   }
 ]
