@@ -128,5 +128,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/manual_approval_module-1.1.zip",
     "last_updated": "2025-07-13T13:34:48.287144+00:00"
+  },
+  {
+    "id": "move_file_module",
+    "name": "Pindahkan File/Folder",
+    "description": "Memindahkan sebuah file atau seluruh folder dari satu lokasi ke lokasi lain.",
+    "tutorial": "CARA PAKAI:\n1. Buka Properti, pilih 'Mode Pemindahan'.\n2. Tentukan 'Path Sumber' (file/folder yang akan dipindah).\n3. Tentukan 'Path Folder Tujuan' ke mana item akan dipindahkan.\n4. Centang 'Timpa' jika Anda ingin menimpa file/folder dengan nama yang sama di tujuan.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/move_file_module-1.1.zip",
+    "last_updated": "2025-07-13T13:34:52.288027+00:00"
   }
 ]
