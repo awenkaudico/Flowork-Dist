@@ -108,5 +108,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/stock_ticker_widget-1.1.zip",
     "last_updated": "2025-07-13T13:38:11.359278+00:00"
+  },
+  {
+    "id": "widget_toolbox",
+    "name": "Toolbox Widget",
+    "description": "Widget inti yang menampilkan semua widget lain yang tersedia untuk ditambahkan ke dashboard.",
+    "tutorial": null,
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/widget_toolbox-1.1.zip",
+    "last_updated": "2025-07-13T13:38:15.080607+00:00"
   }
 ]
