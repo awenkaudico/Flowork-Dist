@@ -158,5 +158,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/receiver_module-1.1.zip",
     "last_updated": "2025-07-13T13:35:04.771524+00:00"
+  },
+  {
+    "id": "set_variable_module",
+    "name": "Atur Banyak Variabel",
+    "description": "Menetapkan atau mengubah banyak variabel sekaligus dalam payload. Modul ini sangat berguna di awal alur kerja untuk menyiapkan data.",
+    "tutorial": "CARA PAKAI:\n1. Letakkan modul ini di kanvas.\n2. Buka propertinya, lalu isi nilai untuk setiap variabel yang ingin kamu atur.\n3. Variabel-variabel ini (judul, nama, dll.) akan tersedia untuk digunakan oleh node-node selanjutnya.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/set_variable_module-1.1.zip",
+    "last_updated": "2025-07-13T13:35:08.389164+00:00"
   }
 ]
