@@ -18,5 +18,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/trigger/event_bus_trigger-1.1.zip",
     "last_updated": "2025-07-13T13:37:08.467937+00:00"
+  },
+  {
+    "id": "file_system_trigger",
+    "name": "Pemicu Perubahan File",
+    "description": "Memicu alur kerja saat ada perubahan pada file atau folder.",
+    "tutorial": null,
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/trigger/file_system_trigger-1.1.zip",
+    "last_updated": "2025-07-13T13:37:12.400086+00:00"
   }
 ]
