@@ -1,11 +1,11 @@
 [
   {
-    "id": "copy_file_module",
-    "name": "Salin File / Folder",
-    "description": "Menyalin file atau folder. Mendukung mode salin tunggal dan mode salin folder cerdas (inkremental) yang hanya menyalin file baru/terupdate.",
-    "tutorial": "CARA PAKAI:\n1. Pilih Mode: 'File Tunggal' atau 'Seluruh Folder'.\n2. Untuk 'File Tunggal', tentukan file sumber dan tujuan. Centang 'Timpa' jika perlu.\n3. Untuk 'Seluruh Folder', tentukan folder sumber dan tujuan. Centang 'Gunakan Riwayat' (rekomendasi) untuk menyalin secara efisien. Jika tidak dicentang, semua isi folder akan disalin dan ditimpa.",
+    "id": "ab_router_module",
+    "name": "A/B Rotator",
+    "description": "Mengarahkan alur kerja ke beberapa preset berbeda secara bergiliran (Round-Robin). Berguna untuk mendistribusikan beban kerja atau melakukan pengujian varian secara merata.",
+    "tutorial": "Tutorial untuk A/B Router belum tersedia.",
     "author": "Flowork Core",
     "version": "1.1",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/copy_file_module-1.1.zip"
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/ab_router_module-1.1.zip"
   }
 ]
