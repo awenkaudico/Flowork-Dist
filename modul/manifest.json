@@ -48,5 +48,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/delete_item_module-1.1.zip",
     "last_updated": "2025-07-13T13:34:05.028193+00:00"
+  },
+  {
+    "id": "custom_variable_module",
+    "name": "Buat Variabel Kustom",
+    "description": "Menambahkan satu pasangan key-value (kunci-nilai) kustom ke dalam data payload yang sedang berjalan.",
+    "tutorial": "CARA PAKAI:\n1. Buka Properti node.\n2. Isi 'Nama Variabel' dengan nama kunci yang Anda inginkan (contoh: 'nama_pelanggan').\n3. Isi 'Isi Variabel' dengan nilai yang diinginkan (contoh: 'Budi').\n4. Node selanjutnya akan menerima payload yang berisi `{'nama_pelanggan': 'Budi'}`.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/custom_variable_module-1.1.zip",
+    "last_updated": "2025-07-13T13:34:08.921224+00:00"
   }
 ]
