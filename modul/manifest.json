@@ -140,16 +140,6 @@
     "last_updated": "2025-07-13T13:34:52.288027+00:00"
   },
   {
-    "id": "receiver_module",
-    "name": "Penerima Data (Receiver)",
-    "description": "Menerima data secara nirkabel dari node 'Pengirim Data'. Node ini tidak perlu koneksi kabel input.",
-    "tutorial": "CARA PAKAI:\n1. Letakkan node ini di kanvas.\n2. Buka propertinya, lalu salin ID unik yang ditampilkan.\n3. Tempelkan ID tersebut ke properti di node 'Pengirim Data'.\n4. Node ini akan secara otomatis memproses data yang dikirimkan kepadanya.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/receiver_module-1.1.zip",
-    "last_updated": "2025-07-13T13:34:55.998198+00:00"
-  },
-  {
     "id": "sender_module",
     "name": "Pengirim Data (Sender)",
     "description": "Mengirim data (payload) ke node 'Penerima Data' di mana pun di kanvas tanpa perlu kabel koneksi.",
@@ -158,5 +148,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/sender_module-1.1.zip",
     "last_updated": "2025-07-13T13:35:00.281357+00:00"
+  },
+  {
+    "id": "receiver_module",
+    "name": "Penerima Data (Receiver)",
+    "description": "Menerima data secara nirkabel dari node 'Pengirim Data'. Node ini tidak perlu koneksi kabel input.",
+    "tutorial": "CARA PAKAI:\n1. Letakkan node ini di kanvas.\n2. Buka propertinya, lalu salin ID unik yang ditampilkan.\n3. Tempelkan ID tersebut ke properti di node 'Pengirim Data'.\n4. Node ini akan secara otomatis memproses data yang dikirimkan kepadanya.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/receiver_module-1.1.zip",
+    "last_updated": "2025-07-13T13:35:04.771524+00:00"
   }
 ]
