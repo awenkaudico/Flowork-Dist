@@ -78,5 +78,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/dynamic_ui_test-1.1.zip",
     "last_updated": "2025-07-13T13:34:27.828236+00:00"
+  },
+  {
+    "id": "fail_always_plugin",
+    "name": "Gagal Selalu (Plugin Tes)",
+    "description": "Plugin sederhana yang dirancang untuk selalu menghasilkan error saat dieksekusi. Sangat berguna untuk menguji alur penanganan error (error handling), fitur 'Retry', atau Global Error Handler.",
+    "tutorial": "CARA PENGGUNAAN:\n1. Letakkan modul ini di mana saja dalam alur kerja Anda.\n2. Saat alur kerja dijalankan dan mencapai modul ini, ia akan sengaja berhenti dengan status GAGAL.\n3. Gunakan ini untuk memastikan cabang 'on_failure' atau logika 'Retry' Anda berjalan sesuai harapan.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/fail_always_plugin-1.1.zip",
+    "last_updated": "2025-07-13T13:34:32.590979+00:00"
   }
 ]
