@@ -68,5 +68,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/log_viewer-1.1.zip",
     "last_updated": "2025-07-13T13:37:56.403135+00:00"
+  },
+  {
+    "id": "metrics_chart_widget",
+    "name": "Dasbor Grafik Metrik",
+    "description": "Widget untuk menampilkan grafik histori metrik workflow.",
+    "tutorial": null,
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/metrics_chart_widget-1.1.zip",
+    "last_updated": "2025-07-13T13:38:00.212781+00:00"
   }
 ]
