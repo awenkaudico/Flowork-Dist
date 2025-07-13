@@ -38,5 +38,15 @@
     "version": "N/A",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/publish_event_module-N/A.zip",
     "last_updated": "2025-07-13T13:36:43.046499+00:00"
+  },
+  {
+    "id": "system_diagnostics_plugin",
+    "name": "System Diagnostics",
+    "description": "Provides tools for system health checks and automated diagnostics for all modules, plugins, widgets, and triggers.",
+    "tutorial": "HOW TO USE:\nThis plugin's functionality is now integrated into the 'Metrics Dashboard'.\n1. Go to the 'Help' menu > 'Open Metrics Dashboard'.\n2. Inside the Metrics Dashboard tab, you will find the 'System Diagnostics' section.\n3. Click 'Start System Scan' to run the checks.",
+    "author": "Flowork Dev Team",
+    "version": "1.1.0",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/system_diagnostics_plugin-1.1.0.zip",
+    "last_updated": "2025-07-13T13:36:46.643305+00:00"
   }
 ]
