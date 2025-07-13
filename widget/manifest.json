@@ -98,5 +98,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/preset_manager-1.1.zip",
     "last_updated": "2025-07-13T13:38:07.745106+00:00"
+  },
+  {
+    "id": "stock_ticker_widget",
+    "name": "Widget Harga Saham",
+    "description": "Widget untuk menampilkan harga saham real-time menggunakan data dari Yahoo Finance.",
+    "tutorial": null,
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/stock_ticker_widget-1.1.zip",
+    "last_updated": "2025-07-13T13:38:11.359278+00:00"
   }
 ]
