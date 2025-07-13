@@ -8,5 +8,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/flowork_core_ui-1.1.zip",
     "last_updated": "2025-07-13T13:36:25.011055+00:00"
+  },
+  {
+    "id": "metrics_dashboard",
+    "name": "Dasbor Metrik",
+    "description": "Menyediakan sebuah tab khusus untuk memantau metrik performa sistem secara real-time, seperti jumlah alur kerja yang berjalan, berhasil, dan gagal.",
+    "tutorial": "CARA PENGGUNAAN:\n1. Setelah plugin ini aktif, buka menu 'Bantuan' di bagian atas aplikasi.\n2. Klik 'Buka Dashboard Metrik' untuk membuka tab baru.\n3. Tab ini akan secara otomatis menampilkan data statistik setiap kali alur kerja dijalankan.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/metrics_dashboard-1.1.zip",
+    "last_updated": "2025-07-13T13:36:35.755301+00:00"
   }
 ]
