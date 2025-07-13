@@ -148,5 +148,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/receiver_module-1.1.zip",
     "last_updated": "2025-07-13T13:34:55.998198+00:00"
+  },
+  {
+    "id": "sender_module",
+    "name": "Pengirim Data (Sender)",
+    "description": "Mengirim data (payload) ke node 'Penerima Data' di mana pun di kanvas tanpa perlu kabel koneksi.",
+    "tutorial": "CARA PAKAI:\n1. Letakkan node 'Penerima Data' di kanvas, buka propertinya, lalu salin ID uniknya.\n2. Buka Properti node 'Pengirim Data' ini.\n3. Tempelkan ID dari node Penerima ke dalam kotak 'ID Modul Penerima'.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/sender_module-1.1.zip",
+    "last_updated": "2025-07-13T13:35:00.281357+00:00"
   }
 ]
