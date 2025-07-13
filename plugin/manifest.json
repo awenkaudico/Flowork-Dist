@@ -28,5 +28,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/metrics_logger_plugin-1.1.zip",
     "last_updated": "2025-07-13T13:36:39.410917+00:00"
+  },
+  {
+    "id": "publish_event_module",
+    "name": "Terbitkan Event",
+    "description": "Menerbitkan sebuah event kustom ke sistem, yang bisa didengarkan oleh modul lain (seperti pemicu atau modul receiver) untuk memulai tindakan lain.",
+    "tutorial": "CARA PAKAI:\n1. Buka Properti, tentukan 'Nama Event' yang unik (contoh: 'PROSES_SELESAI').\n2. Isi 'Data Event' dengan informasi format JSON yang ingin kamu kirim bersama event.\n3. Modul lain sekarang bisa mendengarkan event 'PROSES_SELESAI' ini.",
+    "author": null,
+    "version": "N/A",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/publish_event_module-N/A.zip",
+    "last_updated": "2025-07-13T13:36:43.046499+00:00"
   }
 ]
