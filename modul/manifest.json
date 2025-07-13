@@ -168,5 +168,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/set_variable_module-1.1.zip",
     "last_updated": "2025-07-13T13:35:08.389164+00:00"
+  },
+  {
+    "id": "sleep_module",
+    "name": "Jeda (Sleep)",
+    "description": "Menjeda alur kerja untuk durasi waktu tertentu. Sangat berguna untuk menunggu proses eksternal selesai atau untuk menghindari pembatasan rate API.",
+    "tutorial": "CARA PAKAI:\n1. Buka Properti node ini.\n2. Pilih mode 'Jeda Statis' dan masukkan durasi dalam detik.\n3. Atau pilih 'Jeda Acak' dan tentukan rentang waktu minimum dan maksimum.\n4. Alur kerja akan berhenti di node ini selama durasi yang ditentukan sebelum melanjutkan.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/sleep_module-1.1.zip",
+    "last_updated": "2025-07-13T13:35:12.216569+00:00"
   }
 ]
