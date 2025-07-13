@@ -108,5 +108,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/if_module-1.1.zip",
     "last_updated": "2025-07-13T13:34:40.456538+00:00"
+  },
+  {
+    "id": "join_module",
+    "name": "Gabung (Join)",
+    "description": "Menunggu beberapa alur eksekusi paralel selesai dan menggabungkan hasilnya sebelum melanjutkan. Node ini wajib memiliki minimal satu koneksi input.",
+    "tutorial": "CARA PAKAI:\n1. (WAJIB) Hubungkan output dari beberapa node paralel ke input node ini.\n2. Buka Properti, atur 'Jumlah Input yang Diharapkan' sesuai jumlah koneksi yang masuk.\n3. Alur kerja akan menjeda di node ini sampai jumlah input terpenuhi, lalu melanjutkan ke port 'Lanjut' dengan payload gabungan.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/join_module-1.1.zip",
+    "last_updated": "2025-07-13T13:34:44.406110+00:00"
   }
 ]
