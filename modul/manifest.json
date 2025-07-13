@@ -28,5 +28,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/create_folder_module-1.1.zip",
     "last_updated": "2025-07-13T13:33:57.278633+00:00"
+  },
+  {
+    "id": "debug_popup_module",
+    "name": "Tampilkan Output (Popup)",
+    "description": "Menampilkan seluruh isi data (payload) yang diterima dari node sebelumnya dalam sebuah jendela popup.",
+    "tutorial": "CARA PAKAI:\nModul ini sangat berguna untuk debugging. Cukup hubungkan output dari node mana pun yang ingin kamu lihat datanya ke input modul ini. Saat alur kerja berjalan, sebuah popup akan muncul menampilkan seluruh data yang diterima.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/debug_popup_module-1.1.zip",
+    "last_updated": "2025-07-13T13:34:01.194231+00:00"
   }
 ]
