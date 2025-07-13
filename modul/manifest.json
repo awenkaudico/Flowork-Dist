@@ -18,5 +18,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/copy_file_module-1.1.zip",
     "last_updated": "2025-07-13T13:33:53.384097+00:00"
+  },
+  {
+    "id": "create_folder_module",
+    "name": "Buat Folder Cerdas",
+    "description": "Membuat sebuah folder baru. Nama folder bisa ditentukan secara manual atau diambil secara dinamis dari output node sebelumnya.",
+    "tutorial": "CARA PAKAI:\n1. Tentukan 'Path Folder Induk' tempat folder baru akan dibuat.\n2. Pilih 'Mode Nama Folder':\n   - 'Otomatis': Pilih variabel dari node sebelumnya yang akan dijadikan nama folder.\n   - 'Manual': Ketik langsung nama folder yang diinginkan.\n3. Jalankan alur kerja.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/create_folder_module-1.1.zip",
+    "last_updated": "2025-07-13T13:33:57.278633+00:00"
   }
 ]
