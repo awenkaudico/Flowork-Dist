@@ -1,0 +1,12 @@
+[
+  {
+    "id": "flowork_core_ui",
+    "name": "Antarmuka Inti Flowork",
+    "description": "Plugin sistem yang menyediakan semua antarmuka manajemen inti untuk Flowork, seperti Pengaturan, Manajemen Modul, Plugin, Widget, dan lainnya.",
+    "tutorial": "CARA PENGGUNAAN:\nPlugin ini adalah jantung dari antarmuka Flowork. Saat aktif, ia akan secara otomatis membuat semua menu manajemen (seperti File > Kelola Modul) dan tab-tab yang sesuai saat menu tersebut diklik. Plugin ini tidak untuk digunakan di dalam alur kerja.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/flowork_core_ui-1.1.zip",
+    "last_updated": "2025-07-13T13:36:25.011055+00:00"
+  }
+]
