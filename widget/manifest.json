@@ -78,5 +78,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/metrics_chart_widget-1.1.zip",
     "last_updated": "2025-07-13T13:38:00.212781+00:00"
+  },
+  {
+    "id": "plugin_toolbox",
+    "name": "Toolbox Plugin",
+    "description": "Widget inti untuk menampilkan daftar Plugin Aksi yang dapat digunakan di kanvas.",
+    "tutorial": null,
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/plugin_toolbox-1.1.zip",
+    "last_updated": "2025-07-13T13:38:04.005655+00:00"
   }
 ]
