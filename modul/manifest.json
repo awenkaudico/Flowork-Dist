@@ -58,5 +58,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/custom_variable_module-1.1.zip",
     "last_updated": "2025-07-13T13:34:08.921224+00:00"
+  },
+  {
+    "id": "dynamic_generator_module",
+    "name": "Generator Node Dinamis",
+    "description": "Membuat beberapa node baru secara dinamis saat alur kerja sedang berjalan. Berguna untuk memproses item dalam sebuah daftar secara paralel atau berantai.",
+    "tutorial": "CARA PENGGUNAAN:\n1. Buka Properti, tentukan berapa banyak node baru yang ingin dibuat.\n2. Atur awalan nama untuk node-node baru tersebut.\n3. Pilih 'Mode Koneksi': 'Berantai' (satu per satu) atau 'Paralel' (semua sekaligus).\n4. Hubungkan output 'Lanjutkan ke Node Berikutnya' ke node yang ingin Anda jadikan pola untuk dibuat ulang.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/dynamic_generator_module-1.1.zip",
+    "last_updated": "2025-07-13T13:34:23.427399+00:00"
   }
 ]
