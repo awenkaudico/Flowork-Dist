@@ -98,5 +98,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/http_request_module-1.1.zip",
     "last_updated": "2025-07-13T13:34:36.699976+00:00"
+  },
+  {
+    "id": "if_module",
+    "name": "Kondisi JIKA (IF)",
+    "description": "Mengevaluasi sebuah kondisi dan mengarahkan alur kerja ke cabang 'True' atau 'False' berdasarkan hasilnya.",
+    "tutorial": "CARA PAKAI:\n1. (WAJIB) Hubungkan output dari node lain ke input node ini.\n2. Buka Properti, pilih 'Variabel yang Dicek' dari daftar dropdown.\n3. Pilih 'Operator Pembanding' yang sesuai.\n4. Masukkan 'Nilai Pembanding' yang ingin diuji.\n5. Sambungkan port 'True' dan 'False' ke alur kerja selanjutnya.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/if_module-1.1.zip",
+    "last_updated": "2025-07-13T13:34:40.456538+00:00"
   }
 ]
