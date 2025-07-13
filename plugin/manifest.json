@@ -48,5 +48,15 @@
     "version": "1.1.0",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/system_diagnostics_plugin-1.1.0.zip",
     "last_updated": "2025-07-13T13:36:46.643305+00:00"
+  },
+  {
+    "id": "tampilkan_variabel_demo",
+    "name": "Show Variable (Demo)",
+    "description": "A demo module to show how to retrieve and display a value from the Settings Variables.",
+    "tutorial": "HOW TO USE:\n1. Ensure you have created a variable in Settings > Variable & Secret Management.\n2. Open the Properties for this node.\n3. Select the name of the variable you want to display from the dropdown list.\n4. When the workflow is executed, a popup will appear showing the value of that variable.",
+    "author": "Flowork Dev Team",
+    "version": "1.1.0",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/tampilkan_variabel_demo-1.1.0.zip",
+    "last_updated": "2025-07-13T13:36:50.146629+00:00"
   }
 ]
