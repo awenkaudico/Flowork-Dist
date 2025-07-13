@@ -18,5 +18,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/cmd_widget-1.1.zip",
     "last_updated": "2025-07-13T13:37:36.246348+00:00"
+  },
+  {
+    "id": "crypto_ticker_widget",
+    "name": "Widget Harga Crypto",
+    "description": "Widget untuk menampilkan harga cryptocurrency secara real-time menggunakan data dari Yahoo Finance.",
+    "tutorial": null,
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/crypto_ticker_widget-1.1.zip",
+    "last_updated": "2025-07-13T13:37:39.824371+00:00"
   }
 ]
