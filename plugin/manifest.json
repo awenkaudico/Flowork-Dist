@@ -18,5 +18,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/metrics_dashboard-1.1.zip",
     "last_updated": "2025-07-13T13:36:35.755301+00:00"
+  },
+  {
+    "id": "metrics_logger_plugin",
+    "name": "Layanan Pencatat Metrik",
+    "description": "Sebuah plugin layanan yang berjalan di latar belakang untuk mendengarkan pembaruan metrik dan mencatatnya ke dalam file untuk analisis historis.",
+    "tutorial": "CARA PENGGUNAAN:\nPlugin ini sepenuhnya otomatis dan berjalan di latar belakang. Tidak ada konfigurasi yang diperlukan. Selama plugin ini aktif, setiap kali alur kerja selesai (baik berhasil maupun gagal), datanya akan dicatat ke dalam file 'data/metrics_history.jsonl'.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/metrics_logger_plugin-1.1.zip",
+    "last_updated": "2025-07-13T13:36:39.410917+00:00"
   }
 ]
