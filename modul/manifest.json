@@ -198,5 +198,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/switch_module-1.1.zip",
     "last_updated": "2025-07-13T13:35:19.461675+00:00"
+  },
+  {
+    "id": "tampilkan_variabel_demo",
+    "name": "Tampilkan Variabel (free)",
+    "description": "Modul demo premium untuk mengambil nilai dari 'Manajemen Variabel' di Pengaturan dan menampilkannya dalam popup.",
+    "tutorial": "CARA PAKAI:\n1. Buka Pengaturan -> Manajemen Variabel & Secret, dan buat beberapa variabel.\n2. Buka Properti node ini.\n3. Pilih nama variabel yang ingin ditampilkan dari daftar dropdown.\n4. Saat dijalankan, modul ini akan menampilkan nilai dari variabel tersebut.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/tampilkan_variabel_demo-1.1.zip",
+    "last_updated": "2025-07-13T13:35:23.651228+00:00"
   }
 ]
