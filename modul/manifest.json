@@ -178,5 +178,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/sleep_module-1.1.zip",
     "last_updated": "2025-07-13T13:35:12.216569+00:00"
+  },
+  {
+    "id": "sub_workflow_module",
+    "name": "Sub-Alur Kerja (Sub-Workflow)",
+    "description": "Menjalankan satu atau lebih alur kerja lain (dari preset) sebagai bagian dari alur kerja utama secara berurutan.",
+    "tutorial": "CARA PAKAI:\n1. Buka Properti node.\n2. Pilih preset yang tersedia di sebelah kiri, lalu tekan '>' untuk memindahkannya ke daftar 'Urutan Eksekusi'.\n3. Atur urutan eksekusi dengan tombol panah.\n4. Modul ini akan menjalankan setiap preset dalam daftar secara berurutan, dari atas ke bawah.",
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/sub_workflow_module-1.1.zip",
+    "last_updated": "2025-07-13T13:35:15.738069+00:00"
   }
 ]
