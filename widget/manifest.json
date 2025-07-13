@@ -88,5 +88,15 @@
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/plugin_toolbox-1.1.zip",
     "last_updated": "2025-07-13T13:38:04.005655+00:00"
+  },
+  {
+    "id": "preset_manager",
+    "name": "Manajemen Preset",
+    "description": "Widget inti untuk menyimpan, memuat, dan mengelola Preset Alur Kerja.",
+    "tutorial": null,
+    "author": "Flowork Core",
+    "version": "1.1",
+    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/preset_manager-1.1.zip",
+    "last_updated": "2025-07-13T13:38:07.745106+00:00"
   }
 ]
