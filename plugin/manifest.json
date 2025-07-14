@@ -6,6 +6,7 @@
     "tutorial": "CARA PENGGUNAAN:\nPlugin ini adalah jantung dari antarmuka Flowork. Saat aktif, ia akan secara otomatis membuat semua menu manajemen (seperti File > Kelola Modul) dan tab-tab yang sesuai saat menu tersebut diklik. Plugin ini tidak untuk digunakan di dalam alur kerja.",
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/flowork_core_ui-1.1.zip",
     "last_updated": "2025-07-13T13:36:25.011055+00:00"
   },
@@ -16,6 +17,7 @@
     "tutorial": "CARA PENGGUNAAN:\n1. Setelah plugin ini aktif, buka menu 'Bantuan' di bagian atas aplikasi.\n2. Klik 'Buka Dashboard Metrik' untuk membuka tab baru.\n3. Tab ini akan secara otomatis menampilkan data statistik setiap kali alur kerja dijalankan.",
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/metrics_dashboard-1.1.zip",
     "last_updated": "2025-07-13T13:36:35.755301+00:00"
   },
@@ -26,6 +28,7 @@
     "tutorial": "CARA PENGGUNAAN:\nPlugin ini sepenuhnya otomatis dan berjalan di latar belakang. Tidak ada konfigurasi yang diperlukan. Selama plugin ini aktif, setiap kali alur kerja selesai (baik berhasil maupun gagal), datanya akan dicatat ke dalam file 'data/metrics_history.jsonl'.",
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/metrics_logger_plugin-1.1.zip",
     "last_updated": "2025-07-13T13:36:39.410917+00:00"
   },
@@ -36,6 +39,7 @@
     "tutorial": "CARA PAKAI:\n1. Buka Properti, tentukan 'Nama Event' yang unik (contoh: 'PROSES_SELESAI').\n2. Isi 'Data Event' dengan informasi format JSON yang ingin kamu kirim bersama event.\n3. Modul lain sekarang bisa mendengarkan event 'PROSES_SELESAI' ini.",
     "author": null,
     "version": "N/A",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/publish_event_module-N/A.zip",
     "last_updated": "2025-07-13T13:36:43.046499+00:00"
   },
@@ -46,6 +50,7 @@
     "tutorial": "HOW TO USE:\nThis plugin's functionality is now integrated into the 'Metrics Dashboard'.\n1. Go to the 'Help' menu > 'Open Metrics Dashboard'.\n2. Inside the Metrics Dashboard tab, you will find the 'System Diagnostics' section.\n3. Click 'Start System Scan' to run the checks.",
     "author": "Flowork Dev Team",
     "version": "1.1.0",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/system_diagnostics_plugin-1.1.0.zip",
     "last_updated": "2025-07-13T13:36:46.643305+00:00"
   },
@@ -56,6 +61,7 @@
     "tutorial": "HOW TO USE:\n1. Ensure you have created a variable in Settings > Variable & Secret Management.\n2. Open the Properties for this node.\n3. Select the name of the variable you want to display from the dropdown list.\n4. When the workflow is executed, a popup will appear showing the value of that variable.",
     "author": "Flowork Dev Team",
     "version": "1.1.0",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/tampilkan_variabel_demo-1.1.0.zip",
     "last_updated": "2025-07-13T13:36:50.146629+00:00"
   },
@@ -66,6 +72,7 @@
     "tutorial": "CARA PAKAI:\n1. PENTING: Buka Pengaturan -> Manajemen Variabel & Secret, lalu tambahkan Gemini API Key Anda sebagai variabel rahasia baru (misal, beri nama GEMINI_API_KEY).\n2. Buka Properti node ini.\n3. Masukkan nama variabel tempat Anda menyimpan API Key.\n4. Tulis prompt artikel Anda di area teks.\n5. Jalankan alur kerja. Artikel yang dihasilkan akan ada di dalam kunci 'generated_article' pada payload output.",
     "author": "Awenk Audico & Gemini Partner",
     "version": "1.1.0",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/gemini_artikel_plugin-1.1.0.zip",
     "last_updated": "2025-07-13T16:16:07.661430+00:00"
   }
