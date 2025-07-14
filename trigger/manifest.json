@@ -6,6 +6,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/trigger/cron_trigger-1.1.zip",
     "last_updated": "2025-07-13T13:37:04.958794+00:00"
   },
@@ -16,6 +17,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/trigger/event_bus_trigger-1.1.zip",
     "last_updated": "2025-07-13T13:37:08.467937+00:00"
   },
@@ -26,6 +28,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/trigger/file_system_trigger-1.1.zip",
     "last_updated": "2025-07-13T13:37:12.400086+00:00"
   },
@@ -36,6 +39,7 @@
     "tutorial": null,
     "author": "Awenk Audico",
     "version": "1.0",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/trigger/process_trigger-1.0.zip",
     "last_updated": "2025-07-13T13:37:16.323909+00:00"
   }
