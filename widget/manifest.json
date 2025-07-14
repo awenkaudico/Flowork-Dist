@@ -6,6 +6,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/cmd_widget-1.1.zip",
     "last_updated": "2025-07-13T13:37:36.246348+00:00"
   },
@@ -16,6 +17,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/crypto_ticker_widget-1.1.zip",
     "last_updated": "2025-07-13T13:37:39.824371+00:00"
   },
@@ -26,6 +28,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/custom_button_widget-1.1.zip",
     "last_updated": "2025-07-13T13:37:43.435504+00:00"
   },
@@ -36,6 +39,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/job_status_widget-1.1.zip",
     "last_updated": "2025-07-13T13:37:47.142048+00:00"
   },
@@ -46,6 +50,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/logic_toolbox-1.1.zip",
     "last_updated": "2025-07-13T13:37:52.671496+00:00"
   },
@@ -56,6 +61,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/log_viewer-1.1.zip",
     "last_updated": "2025-07-13T13:37:56.403135+00:00"
   },
@@ -64,6 +70,7 @@
     "name": "Dasbor Grafik Metrik",
     "description": "Widget untuk menampilkan grafik histori metrik workflow.",
     "tutorial": null,
+    "tier": "free",
     "author": "Flowork Core",
     "version": "1.1",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/metrics_chart_widget-1.1.zip",
@@ -76,6 +83,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/plugin_toolbox-1.1.zip",
     "last_updated": "2025-07-13T13:38:04.005655+00:00"
   },
@@ -86,6 +94,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/preset_manager-1.1.zip",
     "last_updated": "2025-07-13T13:38:07.745106+00:00"
   },
@@ -96,6 +105,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/stock_ticker_widget-1.1.zip",
     "last_updated": "2025-07-13T13:38:11.359278+00:00"
   },
@@ -106,6 +116,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/widget_toolbox-1.1.zip",
     "last_updated": "2025-07-13T13:38:15.080607+00:00"
   },
@@ -116,6 +127,7 @@
     "tutorial": null,
     "author": "Flowork Core",
     "version": "1.1",
+    "tier": "free",
     "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/canvas_area-1.1.zip",
     "last_updated": "2025-07-13T13:45:58.563214+00:00"
   }
