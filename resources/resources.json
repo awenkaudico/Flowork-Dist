@@ -1,30 +1,57 @@
-
 [
     {
-        "id": "vps_shopee",
-        "name": "Beli VPS di Shopee",
-        "description": "Temukan penawaran terbaik untuk VPS (Virtual Private Server) di Shopee.",
-        "url": "https://shopee.co.id/vps-hosting-murah",
-        "category_display": "VPS & Hosting",
-        "thumbnail_url": "https://example.com/images/shopee_vps.png",
-        "tags": ["cloud", "server", "hosting", "murah"]
+        "id": "text_formatter_module",
+        "name": "Pemformat Teks Pro",
+        "version": "1.2.0",
+        "author": "Awenk Audico",
+        "description": "Modul untuk mengubah teks menjadi huruf besar, kecil, atau kapitalisasi judul.",
+        "tutorial": "Sambungkan input teks, lalu pilih mode format di properti node.",
+        "tier": "free",
+        "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/text_formatter_module.zip",
+        "last_updated": "2025-07-20T11:00:00+07:00"
     },
     {
-        "id": "plugin_premium_store",
-        "name": "Toko Plugin Premium Floworks",
-        "description": "Koleksi plugin eksklusif untuk Floworks, tingkatkan otomatisasi Anda ke level selanjutnya.",
-        "url": "https://www.teeteeh.art/floworks-plugins",
-        "category_display": "Toko Resmi",
-        "thumbnail_url": "https://example.com/images/floworks_plugin_store.png",
-        "tags": ["premium", "eksklusif", "tambahan", "fitur"]
+        "id": "instagram_scraper_plugin",
+        "name": "Instagram Post Scraper",
+        "version": "2.0.1",
+        "author": "Sahidina Oola",
+        "description": "Ambil data postingan terbaru dari profil Instagram publik.",
+        "tutorial": "Masukkan username target di properti. Pastikan tidak melanggar aturan Instagram. Membutuhkan lisensi premium untuk aktif.",
+        "tier": "premium",
+        "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/plugin/instagram_scraper_plugin.zip",
+        "last_updated": "2025-07-19T14:30:00+07:00"
     },
     {
-        "id": "dokumentasi_gemini_api",
-        "name": "Dokumentasi Google Gemini API",
-        "description": "Akses dokumentasi resmi Google Gemini API untuk integrasi AI lebih lanjut.",
-        "url": "https://ai.google.dev/gemini-api/docs",
-        "category_display": "Dokumentasi",
-        "thumbnail_url": "https://example.com/images/gemini_docs.png",
-        "tags": ["api", "ai", "gemini", "pengembang"]
+        "id": "quote_of_the_day_widget",
+        "name": "Widget Kutipan Motivasi",
+        "version": "1.0.0",
+        "author": "Flowork Community",
+        "description": "Tampilkan kutipan motivasi acak di dashboard Anda untuk memulai hari dengan semangat.",
+        "tutorial": "Cukup tambahkan widget ini ke dashboard dari toolbox, tidak perlu konfigurasi lebih lanjut.",
+        "tier": "free",
+        "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/widget/quote_of_the_day_widget.zip",
+        "last_updated": "2025-07-18T08:00:00+07:00"
+    },
+    {
+        "id": "weather_condition_trigger",
+        "name": "Pemicu Kondisi Cuaca",
+        "version": "1.0.0",
+        "author": "Awenk Audico",
+        "description": "Jalankan workflow jika kondisi cuaca di lokasi tertentu terpenuhi (misal: hujan, suhu di atas 30°C).",
+        "tutorial": "Atur lokasi dan kondisi cuaca yang diinginkan di halaman Manajemen Pemicu. Membutuhkan lisensi premium.",
+        "tier": "premium",
+        "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/trigger/weather_condition_trigger.zip",
+        "last_updated": "2025-07-17T20:00:00+07:00"
+    },
+    {
+        "id": "udemy_python_course",
+        "name": "Kursus Python untuk Otomasi",
+        "description": "Rekomendasi kursus Udemy untuk memperdalam skill Python dalam konteks otomatisasi dan Floworks.",
+        "url": "https://www.udemy.com/course/automate-the-boring-stuff-with-python-programming/",
+        "category_display": "Edukasi & Kursus",
+        "author": "Al Sweigart (Rekomendasi)",
+        "thumbnail_url": "https://www.google.com/s2/favicons?domain=udemy.com&sz=64",
+        "tier": "free",
+        "tags": ["python", "kursus", "edukasi", "otomasi"]
     }
 ]
