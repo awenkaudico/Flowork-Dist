@@ -1,244 +1,29 @@
 [
-  {
-    "id": "ab_router_module",
-    "name": "A/B Rotator",
-    "description": "Mengarahkan alur kerja ke beberapa preset berbeda secara bergiliran (Round-Robin). Berguna untuk mendistribusikan beban kerja atau melakukan pengujian varian secara merata.",
-    "tutorial": "Tutorial untuk A/B Router belum tersedia.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/ab_router_module-1.1.zip",
-    "last_updated": "2025-07-13T13:33:46.069320+00:00"
-  },
-  {
-    "id": "copy_file_module",
-    "name": "Salin File / Folder",
-    "description": "Menyalin file atau folder. Mendukung mode salin tunggal dan mode salin folder cerdas (inkremental) yang hanya menyalin file baru/terupdate.",
-    "tutorial": "CARA PAKAI:\n1. Pilih Mode: 'File Tunggal' atau 'Seluruh Folder'.\n2. Untuk 'File Tunggal', tentukan file sumber dan tujuan. Centang 'Timpa' jika perlu.\n3. Untuk 'Seluruh Folder', tentukan folder sumber dan tujuan. Centang 'Gunakan Riwayat' (rekomendasi) untuk menyalin secara efisien. Jika tidak dicentang, semua isi folder akan disalin dan ditimpa.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/copy_file_module-1.1.zip",
-    "last_updated": "2025-07-13T13:33:53.384097+00:00"
-  },
-  {
-    "id": "create_folder_module",
-    "name": "Buat Folder Cerdas",
-    "description": "Membuat sebuah folder baru. Nama folder bisa ditentukan secara manual atau diambil secara dinamis dari output node sebelumnya.",
-    "tutorial": "CARA PAKAI:\n1. Tentukan 'Path Folder Induk' tempat folder baru akan dibuat.\n2. Pilih 'Mode Nama Folder':\n   - 'Otomatis': Pilih variabel dari node sebelumnya yang akan dijadikan nama folder.\n   - 'Manual': Ketik langsung nama folder yang diinginkan.\n3. Jalankan alur kerja.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/create_folder_module-1.1.zip",
-    "last_updated": "2025-07-13T13:33:57.278633+00:00"
-  },
-  {
-    "id": "debug_popup_module",
-    "name": "Tampilkan Output (Popup)",
-    "description": "Menampilkan seluruh isi data (payload) yang diterima dari node sebelumnya dalam sebuah jendela popup.",
-    "tutorial": "CARA PAKAI:\nModul ini sangat berguna untuk debugging. Cukup hubungkan output dari node mana pun yang ingin kamu lihat datanya ke input modul ini. Saat alur kerja berjalan, sebuah popup akan muncul menampilkan seluruh data yang diterima.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/debug_popup_module-1.1.zip",
-    "last_updated": "2025-07-13T13:34:01.194231+00:00"
-  },
-  {
-    "id": "delete_item_module",
-    "name": "Hapus File / Folder",
-    "description": "Menghapus file atau folder (beserta isinya) secara permanen. Gunakan dengan hati-hati.",
-    "tutorial": "CARA PAKAI:\n1. Buka Properti node.\n2. Pilih 'Mode Penghapusan': 'Hapus File' atau 'Hapus Folder'.\n3. Tentukan path target yang akan dihapus.\n4. Centang 'Abaikan jika tidak ditemukan' agar alur kerja tidak error jika item sudah tidak ada.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/delete_item_module-1.1.zip",
-    "last_updated": "2025-07-13T13:34:05.028193+00:00"
-  },
-  {
-    "id": "custom_variable_module",
-    "name": "Buat Variabel Kustom",
-    "description": "Menambahkan satu pasangan key-value (kunci-nilai) kustom ke dalam data payload yang sedang berjalan.",
-    "tutorial": "CARA PAKAI:\n1. Buka Properti node.\n2. Isi 'Nama Variabel' dengan nama kunci yang Anda inginkan (contoh: 'nama_pelanggan').\n3. Isi 'Isi Variabel' dengan nilai yang diinginkan (contoh: 'Budi').\n4. Node selanjutnya akan menerima payload yang berisi `{'nama_pelanggan': 'Budi'}`.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/custom_variable_module-1.1.zip",
-    "last_updated": "2025-07-13T13:34:08.921224+00:00"
-  },
-  {
-    "id": "dynamic_generator_module",
-    "name": "Generator Node Dinamis",
-    "description": "Membuat beberapa node baru secara dinamis saat alur kerja sedang berjalan. Berguna untuk memproses item dalam sebuah daftar secara paralel atau berantai.",
-    "tutorial": "CARA PENGGUNAAN:\n1. Buka Properti, tentukan berapa banyak node baru yang ingin dibuat.\n2. Atur awalan nama untuk node-node baru tersebut.\n3. Pilih 'Mode Koneksi': 'Berantai' (satu per satu) atau 'Paralel' (semua sekaligus).\n4. Hubungkan output 'Lanjutkan ke Node Berikutnya' ke node yang ingin Anda jadikan pola untuk dibuat ulang.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/dynamic_generator_module-1.1.zip",
-    "last_updated": "2025-07-13T13:34:23.427399+00:00"
-  },
-  {
-    "id": "dynamic_ui_test",
-    "name": "Tes UI Dinamis",
-    "description": "Plugin contoh yang menyediakan Tab dan Item Menu kustom secara dinamis ke dalam aplikasi Flowork.",
-    "tutorial": "CARA PENGGUNAAN:\n1. Setelah plugin ini aktif, periksa menu 'Bantuan' di bagian atas.\n2. Akan ada item menu baru bernama 'Buka Tab Tes Dinamis'.\n3. Klik item menu tersebut untuk membuka sebuah tab baru yang dibuat oleh plugin ini.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/dynamic_ui_test-1.1.zip",
-    "last_updated": "2025-07-13T13:34:27.828236+00:00"
-  },
-  {
-    "id": "fail_always_plugin",
-    "name": "Gagal Selalu (Plugin Tes)",
-    "description": "Plugin sederhana yang dirancang untuk selalu menghasilkan error saat dieksekusi. Sangat berguna untuk menguji alur penanganan error (error handling), fitur 'Retry', atau Global Error Handler.",
-    "tutorial": "CARA PENGGUNAAN:\n1. Letakkan modul ini di mana saja dalam alur kerja Anda.\n2. Saat alur kerja dijalankan dan mencapai modul ini, ia akan sengaja berhenti dengan status GAGAL.\n3. Gunakan ini untuk memastikan cabang 'on_failure' atau logika 'Retry' Anda berjalan sesuai harapan.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/fail_always_plugin-1.1.zip",
-    "last_updated": "2025-07-13T13:34:32.590979+00:00"
-  },
-  {
-    "id": "http_request_module",
-    "name": "Kirim HTTP Request (Dinamis)",
-    "description": "Mengirim request HTTP (GET, POST, dll.) ke URL yang bisa ditentukan secara manual atau diambil secara dinamis dari payload.",
-    "tutorial": "CARA PAKAI:\n1. Buka Properti, di tab 'Utama' pilih 'Mode URL'.\n   - 'Otomatis': Pilih variabel dari node sebelumnya yang berisi URL.\n   - 'Manual': Ketik URL tujuan secara langsung (default: API tes publik).\n2. Atur 'Headers', 'Body', dan 'Otentikasi' di tab masing-masing jika diperlukan.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/http_request_module-1.1.zip",
-    "last_updated": "2025-07-13T13:34:36.699976+00:00"
-  },
-  {
-    "id": "if_module",
-    "name": "Kondisi JIKA (IF)",
-    "description": "Mengevaluasi sebuah kondisi dan mengarahkan alur kerja ke cabang 'True' atau 'False' berdasarkan hasilnya.",
-    "tutorial": "CARA PAKAI:\n1. (WAJIB) Hubungkan output dari node lain ke input node ini.\n2. Buka Properti, pilih 'Variabel yang Dicek' dari daftar dropdown.\n3. Pilih 'Operator Pembanding' yang sesuai.\n4. Masukkan 'Nilai Pembanding' yang ingin diuji.\n5. Sambungkan port 'True' dan 'False' ke alur kerja selanjutnya.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/if_module-1.1.zip",
-    "last_updated": "2025-07-13T13:34:40.456538+00:00"
-  },
-  {
-    "id": "join_module",
-    "name": "Gabung (Join)",
-    "description": "Menunggu beberapa alur eksekusi paralel selesai dan menggabungkan hasilnya sebelum melanjutkan. Node ini wajib memiliki minimal satu koneksi input.",
-    "tutorial": "CARA PAKAI:\n1. (WAJIB) Hubungkan output dari beberapa node paralel ke input node ini.\n2. Buka Properti, atur 'Jumlah Input yang Diharapkan' sesuai jumlah koneksi yang masuk.\n3. Alur kerja akan menjeda di node ini sampai jumlah input terpenuhi, lalu melanjutkan ke port 'Lanjut' dengan payload gabungan.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/join_module-1.1.zip",
-    "last_updated": "2025-07-13T13:34:44.406110+00:00"
-  },
-  {
-    "id": "manual_approval_module",
-    "name": "Persetujuan Manual",
-    "description": "Menjeda alur kerja dan menampilkan popup yang membutuhkan persetujuan (Setuju/Tolak) dari pengguna untuk melanjutkan.",
-    "tutorial": "CARA PAKAI:\n1. Buka Properti node.\n2. Tulis pesan yang akan ditampilkan di popup pada kotak 'Pesan Persetujuan'.\n3. Kamu bisa menyisipkan data dari payload dengan format {{data.nama_variabel}}.\n4. Sambungkan port 'Disetujui' dan 'Ditolak' ke node selanjutnya sesuai kebutuhan.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/manual_approval_module-1.1.zip",
-    "last_updated": "2025-07-13T13:34:48.287144+00:00"
-  },
-  {
-    "id": "move_file_module",
-    "name": "Pindahkan File/Folder",
-    "description": "Memindahkan sebuah file atau seluruh folder dari satu lokasi ke lokasi lain.",
-    "tutorial": "CARA PAKAI:\n1. Buka Properti, pilih 'Mode Pemindahan'.\n2. Tentukan 'Path Sumber' (file/folder yang akan dipindah).\n3. Tentukan 'Path Folder Tujuan' ke mana item akan dipindahkan.\n4. Centang 'Timpa' jika Anda ingin menimpa file/folder dengan nama yang sama di tujuan.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/move_file_module-1.1.zip",
-    "last_updated": "2025-07-13T13:34:52.288027+00:00"
-  },
-  {
-    "id": "sender_module",
-    "name": "Pengirim Data (Sender)",
-    "description": "Mengirim data (payload) ke node 'Penerima Data' di mana pun di kanvas tanpa perlu kabel koneksi.",
-    "tutorial": "CARA PAKAI:\n1. Letakkan node 'Penerima Data' di kanvas, buka propertinya, lalu salin ID uniknya.\n2. Buka Properti node 'Pengirim Data' ini.\n3. Tempelkan ID dari node Penerima ke dalam kotak 'ID Modul Penerima'.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/sender_module-1.1.zip",
-    "last_updated": "2025-07-13T13:35:00.281357+00:00"
-  },
-  {
-    "id": "receiver_module",
-    "name": "Penerima Data (Receiver)",
-    "description": "Menerima data secara nirkabel dari node 'Pengirim Data'. Node ini tidak perlu koneksi kabel input.",
-    "tutorial": "CARA PAKAI:\n1. Letakkan node ini di kanvas.\n2. Buka propertinya, lalu salin ID unik yang ditampilkan.\n3. Tempelkan ID tersebut ke properti di node 'Pengirim Data'.\n4. Node ini akan secara otomatis memproses data yang dikirimkan kepadanya.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/receiver_module-1.1.zip",
-    "last_updated": "2025-07-13T13:35:04.771524+00:00"
-  },
-  {
-    "id": "set_variable_module",
-    "name": "Atur Banyak Variabel",
-    "description": "Menetapkan atau mengubah banyak variabel sekaligus dalam payload. Modul ini sangat berguna di awal alur kerja untuk menyiapkan data.",
-    "tutorial": "CARA PAKAI:\n1. Letakkan modul ini di kanvas.\n2. Buka propertinya, lalu isi nilai untuk setiap variabel yang ingin kamu atur.\n3. Variabel-variabel ini (judul, nama, dll.) akan tersedia untuk digunakan oleh node-node selanjutnya.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/set_variable_module-1.1.zip",
-    "last_updated": "2025-07-13T13:35:08.389164+00:00"
-  },
-  {
-    "id": "sleep_module",
-    "name": "Jeda (Sleep)",
-    "description": "Menjeda alur kerja untuk durasi waktu tertentu. Sangat berguna untuk menunggu proses eksternal selesai atau untuk menghindari pembatasan rate API.",
-    "tutorial": "CARA PAKAI:\n1. Buka Properti node ini.\n2. Pilih mode 'Jeda Statis' dan masukkan durasi dalam detik.\n3. Atau pilih 'Jeda Acak' dan tentukan rentang waktu minimum dan maksimum.\n4. Alur kerja akan berhenti di node ini selama durasi yang ditentukan sebelum melanjutkan.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/sleep_module-1.1.zip",
-    "last_updated": "2025-07-13T13:35:12.216569+00:00"
-  },
-  {
-    "id": "sub_workflow_module",
-    "name": "Sub-Alur Kerja (Sub-Workflow)",
-    "description": "Menjalankan satu atau lebih alur kerja lain (dari preset) sebagai bagian dari alur kerja utama secara berurutan.",
-    "tutorial": "CARA PAKAI:\n1. Buka Properti node.\n2. Pilih preset yang tersedia di sebelah kiri, lalu tekan '>' untuk memindahkannya ke daftar 'Urutan Eksekusi'.\n3. Atur urutan eksekusi dengan tombol panah.\n4. Modul ini akan menjalankan setiap preset dalam daftar secara berurutan, dari atas ke bawah.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/sub_workflow_module-1.1.zip",
-    "last_updated": "2025-07-13T13:35:15.738069+00:00"
-  },
-  {
-    "id": "switch_module",
-    "name": "Logika SWITCH (Pilihan Ganda)",
-    "description": "Mengevaluasi variabel input terhadap serangkaian aturan (kasus) secara berurutan dan mengarahkan alur ke port yang aturannya pertama kali terpenuhi.",
-    "tutorial": "CARA PAKAI:\n1. Hubungkan output dari node lain ke input node ini.\n2. Buka Properti, pilih 'Variabel yang Dicek'.\n3. Tambahkan satu atau lebih 'Kasus'. Setiap 'Nilai Pembanding' yang Anda isi akan otomatis menjadi nama port output baru.\n4. Sambungkan port-port output tersebut ke alur kerja selanjutnya.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/switch_module-1.1.zip",
-    "last_updated": "2025-07-13T13:35:19.461675+00:00"
-  },
-  {
-    "id": "tampilkan_variabel_demo",
-    "name": "Tampilkan Variabel (free)",
-    "description": "Modul demo premium untuk mengambil nilai dari 'Manajemen Variabel' di Pengaturan dan menampilkannya dalam popup.",
-    "tutorial": "CARA PAKAI:\n1. Buka Pengaturan -> Manajemen Variabel & Secret, dan buat beberapa variabel.\n2. Buka Properti node ini.\n3. Pilih nama variabel yang ingin ditampilkan dari daftar dropdown.\n4. Saat dijalankan, modul ini akan menampilkan nilai dari variabel tersebut.",
-    "author": "Flowork Core",
-    "version": "1.1",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/tampilkan_variabel_demo-1.1.zip",
-    "last_updated": "2025-07-13T13:35:23.651228+00:00"
-  },
-  {
-    "id": "simpan_artikel_module",
-    "name": "Simpan Artikel ke TXT",
-    "description": "Menyimpan konten teks dari payload ke dalam sebuah file .txt.",
-    "tutorial": "CARA PAKAI:\n1. Hubungkan node ini setelah node yang menghasilkan teks (misal: Generator Artikel Gemini).\n2. Buka Properti, di bagian 'Input', pastikan 'Kunci Payload' sudah benar (default: generated_article).\n3. Di bagian 'Output', klik 'Browse...' untuk memilih folder tujuan.\n4. Tentukan nama file secara manual atau pilih mode dinamis untuk mengambil nama dari payload.",
-    "author": "Awenk Audico & Gemini Partner",
-    "version": "1.0.0",
-    "tier": "free",
-    "download_url": "https://github.com/awenkaudico/Flowork-Dist/raw/main/modul/simpan_artikel_module-1.0.0.zip",
-    "last_updated": "2025-07-13T16:18:14.508284+00:00"
-  }
+    {
+        "id": "vps_shopee",
+        "name": "Beli VPS di Shopee",
+        "description": "Temukan penawaran terbaik untuk VPS (Virtual Private Server) di Shopee.",
+        "url": "https://shopee.co.id/vps-hosting-murah",
+        "category_display": "VPS & Hosting",
+        "thumbnail_url": "https://example.com/images/shopee_vps.png",
+        "tags": ["cloud", "server", "hosting", "murah"]
+    },
+    {
+        "id": "plugin_premium_store",
+        "name": "Toko Plugin Premium Floworks",
+        "description": "Koleksi plugin eksklusif untuk Floworks, tingkatkan otomatisasi Anda ke level selanjutnya.",
+        "url": "https://www.teeteeh.art/floworks-plugins",
+        "category_display": "Toko Resmi",
+        "thumbnail_url": "https://example.com/images/floworks_plugin_store.png",
+        "tags": ["premium", "eksklusif", "tambahan", "fitur"]
+    },
+    {
+        "id": "dokumentasi_gemini_api",
+        "name": "Dokumentasi Google Gemini API",
+        "description": "Akses dokumentasi resmi Google Gemini API untuk integrasi AI lebih lanjut.",
+        "url": "https://ai.google.dev/gemini-api/docs",
+        "category_display": "Dokumentasi",
+        "thumbnail_url": "https://example.com/images/gemini_docs.png",
+        "tags": ["api", "ai", "gemini", "pengembang"]
+    }
 ]
