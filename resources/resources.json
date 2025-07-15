@@ -1,1 +1,30 @@
 
+[
+    {
+        "id": "vps_shopee",
+        "name": "Beli VPS di Shopee",
+        "description": "Temukan penawaran terbaik untuk VPS (Virtual Private Server) di Shopee.",
+        "url": "https://shopee.co.id/vps-hosting-murah",
+        "category_display": "VPS & Hosting",
+        "thumbnail_url": "https://example.com/images/shopee_vps.png",
+        "tags": ["cloud", "server", "hosting", "murah"]
+    },
+    {
+        "id": "plugin_premium_store",
+        "name": "Toko Plugin Premium Floworks",
+        "description": "Koleksi plugin eksklusif untuk Floworks, tingkatkan otomatisasi Anda ke level selanjutnya.",
+        "url": "https://www.teeteeh.art/floworks-plugins",
+        "category_display": "Toko Resmi",
+        "thumbnail_url": "https://example.com/images/floworks_plugin_store.png",
+        "tags": ["premium", "eksklusif", "tambahan", "fitur"]
+    },
+    {
+        "id": "dokumentasi_gemini_api",
+        "name": "Dokumentasi Google Gemini API",
+        "description": "Akses dokumentasi resmi Google Gemini API untuk integrasi AI lebih lanjut.",
+        "url": "https://ai.google.dev/gemini-api/docs",
+        "category_display": "Dokumentasi",
+        "thumbnail_url": "https://example.com/images/gemini_docs.png",
+        "tags": ["api", "ai", "gemini", "pengembang"]
+    }
+]
